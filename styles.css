@@ -1,1 +1,56 @@
 /*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fc;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border: 2px solid black;
+}
+
+#verification_heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#verification_subtext {
+  font-size: 14px;
+  color: #444;
+  margin: 10px 0 30px;
+}
+
+.code-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.code {
+  width: 60px;
+  height: 80px;
+  font-size: 48px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.footer {
+  font-size: 12px;
+  color: #777;
+  background: #eee;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
